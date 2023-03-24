@@ -1,0 +1,244 @@
+body,h1,h2,h3,h4,h5,h6,a,span,p{font-family: 'Work Sans', sans-serif;}
+
+img{max-width: 100%;}
+
+
+/*header-section*/
+.mew-image{margin-bottom: -25px;}
+
+
+
+.carousel-caption a {
+    background: #0f0bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 8.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.header-section{background: #fff;
+	padding: 5px 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+border-bottom: 2px solid #0f0bff;}
+
+.primary-menu ul{list-style: none;
+text-align: right;
+margin-bottom: 0px;}
+.primary-menu ul li{display: inline-block;}
+
+.primary-menu ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 0px 15px;
+	color: black;
+	font-size: 17px;
+	line-height: 60px;
+font-weight: 500;}
+
+
+.primary-menu ul li a:hover {
+    color: #0f0bff !important;
+}
+
+
+.search-button i.fa.fa-search {
+    margin-top: 22px;
+    text-align: right;
+    border-left: 2px solid #979797;
+    padding-left: 27px;
+}
+
+.search-button i.fa.fa-search:hover{color: #0f0bff;}
+
+
+/*dropdown*/
+.primary-menu ul li{position: relative;}
+.primary-menu ul li ul{position: absolute;
+left: 0;
+top: 120%;
+width: 220px;
+background: #fff;
+text-align: left;
+box-shadow: 0 0 15px 0 rgba(0,0,0,.1);
+visibility: hidden;
+opacity: 0;
+transition: .5s;}
+
+.primary-menu ul li:hover ul{visibility: visible;
+opacity: 1;
+top: 100%;}
+
+
+/********carusoal section*******/
+
+.carousel-caption h3 {
+		font-size: 50px;
+	}
+
+	.carousel-caption p {
+		font-size: 20px;
+		margin-top: -10px;
+		margin-bottom: 30px;
+	}
+	.carousel-caption p{
+		font-size: 20px;
+	}
+
+/*service-section*/
+.service-content-text h2 {
+	border-bottom: 1px solid #ddd;
+	width: 400px;
+	margin: auto;
+	margin-bottom: 23px;
+	padding-bottom: 7px;}
+
+.service-item {
+	box-shadow: 0 0 15px 0 rgba(0,0,0,.1);
+	background: #fff;
+	padding: 35px;}
+
+
+.servcie-icon span i {
+	display: block;
+	height: 50px;
+	width: 52px;
+	background: #fff;
+	box-shadow: 2px 2px 13px 0px rgba(0, 0, 0, .2);
+	text-align: center;
+	line-height: 50px;
+	border-radius: 5px;
+transition: .3s;}
+
+.servcie-icon span i:hover{color: blue;}
+
+.servcie-icon span {
+	float: left;
+	min-height: 235px;
+	margin-right: 29px;
+	font-size: 29px;
+	display: block;
+	color: #ddd;}
+
+.service-content h4 {
+	font-size: 21px;
+	font-weight: 600;}
+
+.service-content p {
+	font-size: 17px;
+	color: #767676;}
+
+.service-content a {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-weight: 600;
+transition: .4s;}
+
+.service-content a:hover{letter-spacing: 2px;
+	color: red;}
+
+/*blog-section*/
+
+.blog-content-text h2 {
+	border-bottom: 1px solid #ddd;
+	width: 450px;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-bottom: 10px;} 
+
+/*feature-section*/
+
+.feature-section {
+	background: black;
+	padding: 55px 0;
+	color: #fff;
+	position: relative;}
+
+.contact-button a {
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 9px 20px;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 600;
+	margin-right: 15px;
+	border-radius: 25px;
+	position: relative;
+	top: 40px;
+	transition: .5s;}
+
+.contact-button a:hover{color: black;
+background: #fff;}
+
+/*product-section*/
+
+.product-section {
+    background: #dbdbdb14;
+    padding: 50px 0px;
+}
+
+.product-text h2 {
+	border-bottom: 1px solid #ddd;
+	width: 400px;
+	margin: auto;
+	padding-bottom: 10px;
+	margin-bottom: 16px;}
+
+.product-image a img:hover{transform: scale(1.1);}
+
+img.new-css {
+    transition: .4s;
+}
+
+.submit-btn {
+	padding: 12px 147px;
+	background: rgba(0, 0, 0, .3);
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 5px;
+transition: .5s;}
+
+.submit-btn:hover{color: red;}
+
+.contact-text h2 strong {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 19px;
+	display: inline-block;
+	padding-bottom: 10px;}
+
+.contact-text .form-control {
+	background: #2222;
+	border: none;}
+
+
+
+
+	.footer {
+		background: black;
+		padding: 18px 0px;
+	}
+	.footer h2 {
+		font-size: 16px;
+		color: #fff;
+		text-align: center;
+		margin-bottom: 0;
+	}
+
